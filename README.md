@@ -26,7 +26,7 @@ This repository contains serves as an introduction to GitHub and Git.
 
 - Verify your email address in the link sent by GitHub.
 
-- Go into your terminal/PowerShell/command line application and paste the following code (you may be prompted for your password):
+- Go into your terminal/PowerShell/command line application and paste the following code:
 
 ```bash
 git config --global user.name "Your_username_here"
