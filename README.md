@@ -33,7 +33,7 @@ git config --global user.name "Your_username_here"
 git config --global user.email “your_email@uw.edu”
 ```
 
-- Perform a test of your connection to GitHub from your local machine by entering the following commands in the command line:
+- Perform a test of your connection to GitHub from your local machine by entering the following commands in the command line to clone this repo:
 
 ```bash
 cd Desktop/
@@ -60,7 +60,7 @@ If the commands are successful, our lab's GitHub introductory repo will be downl
 
 - Click **Generate token**.
 
-- Open your terminal/PowerShell/command line interface and type the following command to clone this repo:
+- Open your terminal/PowerShell/command line interface and type the following command:
 
 ```bash
 git clone https://username@github.com/username/repository.git
