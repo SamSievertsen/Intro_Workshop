@@ -135,7 +135,7 @@ Password: `YOUR_TOKEN`
 
 5. Stage the changes:
    ```bash
-   git add your_name_test.txt
+   git add .
    ```
 
 6. Commit the changes:
