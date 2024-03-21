@@ -14,7 +14,7 @@ This repository contains serves as an introduction to GitHub and Git.
 
 - [Create a GitHub account](https://github.com/join) using your uw.edu email address.
 
-Paste the following into your terminal/PowerShell/command line interface to download Homebrew:
+- Paste the following into your terminal/PowerShell/command line interface to download Homebrew:
 
 ```bash
 /bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)”
