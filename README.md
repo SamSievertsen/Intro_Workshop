@@ -42,7 +42,7 @@ git clone https://github.com/forsyth-lab/Intro_Workshop.git
 
 If the commands are successful, our lab's GitHub introductory repo will be downloaded to your desktop, signifying your GitHub account is successfully connected to your local machine.
 
-## Configuring permanent read/write/execute access on your local machine for pushing/pulling repositories (optional)
+## Configuring permanent read/write/execute access on your local machine for pushing/pulling repositories
 
 - In the upper-right corner of your GitHub account in the browser, click your profile photo, then click **Settings**.
 
@@ -66,8 +66,84 @@ If the commands are successful, our lab's GitHub introductory repo will be downl
 git clone https://username@github.com/username/repository.git
 ```
 
-Alternatively, you may attempt to `git push` or `git pull` a repo to which you have access (and the same prompt below should be generated).
+Alternatively, you may attempt to `git push` or `git pull` a repo to which you have access as is outlined in the test push instructions below, and the same prompt for logging in using your token should be generated.
 
 Assuming you have entered your username in previous steps, you will then be prompted to provide your GitHub credentials as seen below:
 
 Password: `YOUR_TOKEN`
+
+*To note,* if you have 2FA enabled, you will also need to enable the integration of your authentication services by selecting "View in Browser" and agreeing to the terms outlined therein before entering your token as your password. 
+
+## Committing a test push to the Intro Workshop repo
+
+### On Mac:
+
+1. Open Terminal.
+
+2. Navigate to the directory where you want to create the file and add text. For example, if you want to create the file inside the "Intro_Workshop/Workshop_Push_Directory" directory on your Desktop, you can use the following command:
+   ```bash
+   cd ~/Full/Path/To/Intro_Workshop/Workshop_Push_Directory
+   ```
+
+3. Create the file using the following command:
+   ```bash
+   touch your_name_test.txt
+   ```
+
+4. Add a line of text to the file. You can do this using any text editor installed on your system. For example, you can use nano:
+   ```bash
+   nano your_name_test.txt
+   ```
+
+   Type your text, then press `Ctrl + X` to exit, `Y` to confirm changes, and `Enter` to save.
+
+5. Stage the changes:
+   ```bash
+   git add .
+   ```
+
+6. Commit the changes:
+   ```bash
+   git commit -m "Add a line of text to your_name_test.txt"
+   ```
+
+7. Push the changes to the GitHub repository:
+   ```bash
+   git push
+   ```
+
+### On Windows:
+
+1. Open Command Prompt or PowerShell.
+
+2. Navigate to the directory where you want to create the file and add text. For example, if you want to create the file inside the "Intro_Workshop/Workshop_Push_Directory" directory on your Desktop, you can use the following command in Command Prompt:
+   ```bash
+   cd C:\Users\YourUsername\Desktop\Intro_Workshop\Workshop_Push_Directory
+   ```
+
+3. Create the file using the following command:
+   ```bash
+   New-Item your_name_test.txt
+   ```
+
+4. Add a line of text to the file. You can do this using any text editor installed on your system. For example, you can use Notepad:
+   ```bash
+   notepad your_name_test.txt
+   ```
+
+   Type your text, then save and close the file.
+
+5. Stage the changes:
+   ```bash
+   git add your_name_test.txt
+   ```
+
+6. Commit the changes:
+   ```bash
+   git commit -m "Add a line of text to your_name_test.txt"
+   ```
+
+7. Push the changes to the GitHub repository:
+   ```bash
+   git push origin main
+   ```
