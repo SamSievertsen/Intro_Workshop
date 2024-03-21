@@ -145,5 +145,5 @@ Password: `YOUR_TOKEN`
 
 7. Push the changes to the GitHub repository:
    ```bash
-   git push origin main
+   git push
    ```
