@@ -42,7 +42,7 @@ git clone https://github.com/forsyth-lab/Intro_Workshop.git
 
 If the commands are successful, our lab's GitHub introductory repo will be downloaded to your desktop, signifying your GitHub account is successfully connected to your local machine.
 
-## Configuring permanent read/write/execute repository access on your local machine for pushing/pulling (optional)
+## Configuring permanent read/write/execute access on your local machine for pushing/pulling repositories (optional)
 
 - In the upper-right corner of your GitHub account in the browser, click your profile photo, then click **Settings**.
 
@@ -60,7 +60,7 @@ If the commands are successful, our lab's GitHub introductory repo will be downl
 
 - Click **Generate token**.
 
-- Open your terminal/PowerShell/command line interface and type the following command:
+- Open your terminal/PowerShell/command line interface and type the following command to clone this repo:
 
 ```bash
 git clone https://username@github.com/username/repository.git
