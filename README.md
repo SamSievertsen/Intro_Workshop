@@ -69,4 +69,5 @@ git clone https://username@github.com/username/repository.git
 Alternatively, you may attempt to `git push` or `git pull` a repo to which you have access (and the same prompt below should be generated).
 
 Assuming you have entered your username in previous steps, you will then be prompted to provide your GitHub credentials as seen below:
-Password: YOUR_TOKEN
+
+Password: 'YOUR_TOKEN'
