@@ -70,4 +70,3 @@ Alternatively, you may attempt to `git push` or `git pull` a repo to which you h
 
 Assuming you have entered your username in previous steps, you will then be prompted to provide your GitHub credentials as seen below:
 Password: YOUR_TOKEN
-```
