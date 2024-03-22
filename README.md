@@ -14,13 +14,26 @@ This repository contains serves as an introduction to GitHub and Git.
 
 - [Create a GitHub account](https://github.com/join) using your uw.edu email address.
 
-- Paste the following into your terminal/PowerShell/command line interface to download Homebrew:
+**For MacOS:**
+
+- Paste the following into your terminal/command line interface to download Homebrew:
 
 ```bash
 /bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)”
 ```
 
-- [Download the git language](https://git-scm.com/downloads) for your computer's operating system.
+- Once homebrew has been successfully installed, paste the following into your terminal/command line interface to download and install Git:
+```bash
+brew install git
+```
+
+**For Windows:**
+
+- [Download Git for Windows](https://git-scm.com/download/win). Most likely, you will want to select the *"64-bit Git for Windows Setup."* version.
+
+- Once the .exe file has been downloaded onto your machine, open it and select "Yes" when prompted to allow changes to be made to your device
+
+- Select "Next" on all the optional changes git allows you to make (AKA retaining default options). S
 
 ## Configuring your GitHub account on your local machine
 
@@ -58,12 +71,12 @@ If the commands are successful, our lab's GitHub introductory repo will be downl
 
 - Select the scopes you'd like to grant this token (it is most helpful to give it access to everything). To use your token to access repositories from the command line, select **repo**. A token with no assigned scopes can only access public information. For more information, see ["Available scopes"](https://docs.github.com/en/enterprise-server@3.4/developers/apps/building-oauth-apps/scopes-for-oauth-apps#available-scopes).
 
-- Click **Generate token**.
+- Click **Generate token**. IMPORTANT NOTE: once this token has been generated, it will display only once on your screen and not be viewable again. As such, copy and store it in a secure location (e.g., password protected document, bit-locker, etc.) to be accessed when GitHub credentials will be first required (either in pushing/pulling this repo in the steps below, or another repo on which you plan to work). 
 
 - Open your terminal/PowerShell/command line interface and type the following command:
 
 ```bash
-git clone https://username@github.com/username/repository.git
+git pull https://username@github.com/username/repository.git
 ```
 
 Alternatively, you may attempt to `git push` or `git pull` a repo to which you have access as is outlined in the test push instructions below, and the same prompt for logging in using your token should be generated.
