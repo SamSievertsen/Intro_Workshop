@@ -163,11 +163,11 @@ If the commands are successful, our lab's GitHub introductory repo will be downl
    Enter INSERT mode = click the letter "i"
    Get out of INSERT mode = click "esc"
    Save & Quit = click esc then type ":wq" and click "Enter"
-   Exit = click esc then type :x click Enter
+   Exit = click esc then type ":x" click "Enter"
 
    # Basic Nano commands
-   Save = click ctrl and the letter "O" at the same time,
-   then click enter.
+   Save = click "ctrl" and the letter "O" at the same time,
+   then click "enter".
    Exit = click "ctrl" then type "x"
 
    ```
