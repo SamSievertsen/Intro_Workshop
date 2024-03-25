@@ -109,33 +109,6 @@ If the commands are successful, our lab's GitHub introductory repo will be downl
       - At this point, since UW provides access to GitHub Enterprise and our organization uses single sign on (SSO), you will likely encounter something to the effect of "Permission denied. Could not read from remote repository", followed by a link to an SSO authorization. Copy and paste this link into your browser of choice, and agree to the terms and conditions of the SSO.
       - Once completed, you should be able to successfully perform the *git pull* action from step 3, albeit being prompted for your credentials once more. 
 
-5. Create the file using the following command:
-   ```bash
-   touch your_name_test.txt
-   ```
-
-6. Add a line of text to the file. You can do this using any text editor installed on your system. For example, you can use nano:
-   ```bash
-   nano your_name_test.txt
-   ```
-
-   Type your text, then press `Ctrl + X` to exit, `Y` to confirm changes, and `Enter` to save.
-
-7. Stage the changes:
-   ```bash
-   git add .
-   ```
-
-8. Commit the changes:
-   ```bash
-   git commit -m "Add a line of text to your_name_test.txt"
-   ```
-
-9. Push the changes to the GitHub repository:
-   ```bash
-   git push
-   ```
-
 ### On Windows:
 
 1. Open Command Prompt or PowerShell.
@@ -151,29 +124,66 @@ If the commands are successful, our lab's GitHub introductory repo will be downl
       - At this point, since UW provides access to GitHub Enterprise and our organization uses single sign on (SSO), you will likely encounter something to the effect of "Permission denied. Could not read from remote repository", followed by a link to an SSO authorization. Copy and paste this link into your browser of choice, and agree to the terms and conditions of the SSO.
       - Once completed, you should be able to successfully perform the *git pull* action from step 3, albeit being prompted for your credentials once more. 
 
-4. Create the file using the following command:
+### Create the file using the following command:
+
+1. Directly in the terminal
+
+   a. Creating a new empty file (optional)
+   
+     For mac:
+     
+     ```bash
+     touch your_name_test.txt
+     ```
+     For windows:
+   
+     ```bash
+     New-Item your_name_test.txt
+     ```
+   b. Making edits 
+
    ```bash
-   New-Item your_name_test.txt
+   vim your_name_test.txt
+   
    ```
-
-5. Add a line of text to the file. You can do this using any text editor installed on your system. For example, you can use Notepad:
+   or 
    ```bash
-   notepad your_name_test.txt
+   nano your_name_test.txt
    ```
+   or 
+   ```bash
+   vi your_name_test.txt
+   ```
+   
 
-   Type your text, then save and close the file.
 
-6. Stage the changes:
+2. Use any text editor of your choice (e.g Visual Studios, Sublime, Notepad...)
+   ```bash
+   # Basic Vim Commands
+   Enter INSERT mode = click the letter "i"
+   Get out of INSERT mode = click "esc"
+   Save & Quit = click esc then type ":wq" and click "Enter"
+   Exit = click esc then type :x click Enter
+
+   # Basic Nano commands
+   Save = click ctrl and the letter "O" at the same time,
+   then click enter.
+   Exit = click "ctrl" then type "x"
+
+   ```
+   
+### Commit a test change:
+1. Stage the changes:
    ```bash
    git add .
    ```
 
-7. Commit the changes:
+2. Commit the changes:
    ```bash
    git commit -m "Add a line of text to your_name_test.txt"
    ```
 
-8. Push the changes to the GitHub repository:
+3. Push the changes to the GitHub repository:
    ```bash
    git push
    ```
