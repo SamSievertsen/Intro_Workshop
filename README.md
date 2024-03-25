@@ -19,7 +19,7 @@ This repository contains serves as an introduction to GitHub and Git.
 - Paste the following into your terminal/command line interface to download Homebrew:
 
 ```bash
-/bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)”
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 - Once homebrew has been successfully installed, paste the following into your terminal/command line interface to download and install Git:
