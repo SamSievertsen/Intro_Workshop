@@ -48,7 +48,7 @@ git config --global user.name "Your_username_here"
 ```
 
 ```bash
-git config --global user.email “your_email@uw.edu”
+git config --global user.email "your_email@uw.edu"
 ```
 
 - Perform a test of your connection to GitHub from your local machine by entering the following commands in the command line to clone this repo:
