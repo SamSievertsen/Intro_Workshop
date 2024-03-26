@@ -63,7 +63,11 @@ git clone https://github.com/forsyth-lab/Intro_Workshop.git
 
 If the commands are successful, our lab's GitHub introductory repo will be downloaded to your desktop, signifying your GitHub account is successfully connected to your local machine.
 
-## Configuring permanent read/write/execute access tokens for your local machine
+## Authenticating with the Command line 
+
+This step is to gain read/write/execute access for your local machine to asess repositories on GitHub. There are two ways, HTTPs and SSH, and both have a different way of authenticating.
+
+### [HTTPs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#https) - Authenticate with a personal access token.
 
 - In the upper-right corner of your GitHub account in the browser, click your profile photo, then click *Settings*.
 
@@ -85,7 +89,10 @@ If the commands are successful, our lab's GitHub introductory repo will be downl
 
 - Click *Generate token*.
 
-   - **IMPORTANT NOTE:** once this token has been generated, it will display only once on your screen and not be viewable again. As such, copy and store it in a secure location (e.g., password protected document, bit-locker, etc.) to be accessed when GitHub credentials will be first required (either in pushing/pulling this repo in the steps below, or another repo on which you plan to work). 
+   - **IMPORTANT NOTE:** once this token has been generated, it will display only once on your screen and not be viewable again. As such, copy and store it in a secure location (e.g., password protected document, bit-locker, etc.) to be accessed when GitHub credentials will be first required (either in pushing/pulling this repo in the steps below, or another repo on which you plan to work).
+  
+### [SSH](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#ssh) - Generate an SSH public/private keypair
+A more secured method. Access the github help page for more information.
 
 ## Committing a test push/pull to the Intro Workshop repo
 
