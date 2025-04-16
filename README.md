@@ -12,7 +12,7 @@ This repository serves as an introduction to GitHub and Git.
 
 ## Installing git and GitHub on your computer
 
-- [Create a GitHub account](https://github.com/join) using your uw.edu email address.
+- [Create a GitHub account](https://github.com/join) using your ohsu.edu email address.
 
 ### For MacOS:
 
@@ -48,7 +48,7 @@ git config --global user.name "Your_username_here"
 ```
 
 ```bash
-git config --global user.email "your_email@uw.edu"
+git config --global user.email "your_email@ohsu.edu"
 ```
 
 - Perform a test of your connection to GitHub from your local machine by entering the following commands in the command line to clone this repo:
@@ -58,10 +58,10 @@ cd Desktop/
 ```
 
 ```bash
-git clone https://github.com/forsyth-lab/Intro_Workshop.git
+git clone https://github.com/SamSievertsen/Intro_Workshop.git
 ```
 
-If the commands are successful, our lab's GitHub introductory repo will be downloaded to your desktop, signifying your GitHub account is successfully connected to your local machine.
+If the commands are successful, our GitHub introductory repo will be downloaded to your desktop, signifying your GitHub account is successfully connected to your local machine.
 
 ## Authenticating with the Command line 
 
